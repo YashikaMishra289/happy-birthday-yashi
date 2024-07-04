@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Yashi!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #ffa7c4;
+            color: #fff;
+            padding: 2em 0;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            position: relative;
+            animation: headerSlideIn 1s ease-out;
+        }
+
+        @keyframes headerSlideIn {
+            from {
+                top: -100px;
+                opacity: 0;
+            }
+            to {
+                top: 0;
+                opacity: 1;
+            }
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f6d6ad;
+            padding: 1em;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #343a40;
+            margin: 0 1em;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffa500;
+        }
+
+        section {
+            padding: 2em;
+            margin: 1em auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        h2 {
+            color: #ffa7c4;
+            border-bottom: 2px solid #ffa7c4;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery img, .gallery video {
+            flex: 0 1 48%;
+            height: auto;
+            margin-bottom: 1em;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover, .gallery video:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            background-color: #ffa7c4;
+            color: #fff;
+            margin-top: 2em;
+            font-size: 1.1em;
+        }
+
+        .artist-aesthetic {
+            background-color: #ffe8a1;
+            border: 1px solid #ffa7c4;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        .artist-aesthetic p {
+            font-style: italic;
+            font-size: 1.1em;
+            margin: 0.5em 0;
+        }
+
+        .contact-message {
+            background-color: #ffd3b6;
+            padding: 1em;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 1em;
+        }
+
+        .contact-message p {
+            margin: 0.5em 0;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Happy Birthday, Yashi! 🌈🎨
+    </header>
+    <nav>
+        <a href="#biography">Biography</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="biography">
+        <h2>Biography</h2>
+        <p>Yashi Kashyap, born on 2nd July, 2013, is the middle child of her family, and also the sanest. She has always liked art and has made excellent grades. Her most notable achievement is staying sane with sisters like her. Yashi hates dancing, loves singing, and is a part of the choir. Her favorite hymn is "Count Your Blessings."</p>
+        <p>But let's be honest, Yashi, surviving your sisters deserves a medal. You may act all sane and composed, but we know you secretly enjoy the chaos. 😉</p>
+    </section>
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <!-- Placeholder for image -->
+        <img src="placeholder.jpg" alt="Yashi's Image">
+        <!-- Placeholder for video -->
+        <video controls>
+            <source src="placeholder.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <p>Yashi, you've accomplished so much for your age. Here are a few highlights:</p>
+        <ul>
+            <li>Maintaining sanity with your wild sisters.</li>
+            <li>Consistently excellent grades in school.</li>
+            <li>Member of the school choir.</li>
+            <li>Master of avoiding dance.</li>
+            <li>Creating beautiful artwork that leaves us all in awe.</li>
+        </ul>
+        <p>Seriously though, we're all so proud of you. Keep shining, superstar!</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="artist-aesthetic">
+            <p>If you would like to get in touch with Yashi: <strong>DON'T. Stay away from my sister! 🎨</strong></p>
+        </div>
+        <div class="contact-message">
+            <p>Sorry I couldn't come to your birthday, emergency stuff... 😞</p>
+            <p>Lots of Love, your dearest Psycho Guru (aka Yashika Mishra) 💖</p>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Happy Birthday, Yashi! All rights reserved.
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll("section");
+            const options = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                    }
+                });
+            }, options);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+
+            const navLinks = document.querySelectorAll("nav a");
+            navLinks.forEach(link => {
+                link.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute("href").substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    window.scrollTo({
+                        top: targetSection.offsetTop - document.querySelector("nav").offsetHeight,
+                        behavior: "smooth"
+                    });
+                });
+            });
+
+            // Add an interactive greeting modal
+            const body = document.querySelector('body');
+            const modal = document.createElement('div');
+            modal.style.position = 'fixed';
+            modal.style.top = '50%';
+            modal.style.left = '50%';
+            modal.style.transform = 'translate(-50%, -50%)';
+            modal.style.backgroundColor = '#fff';
+            modal.style.padding = '2em';
+            modal.style.borderRadius = '8px';
+            modal.style.boxShadow = '0 0 15px rgba(0,0,0,0.3)';
+            modal.style.zIndex = '1001';
+            modal.style.textAlign = 'center';
+            modal.style.display = 'none';
+            modal.innerHTML = `
+                <h2>Happy Birthday, Yashi!</h2>
+                <p>We hope you have an amazing day filled with joy and happiness!</p>
+                <button id="closeModal" style="padding: 0.5em 1em; background-color: #ffa7c4; border: none; color: white; border-radius: 5px;">Close</button>
+            `;
+            body.appendChild(modal);
+
+            const openModal = () => {
+                modal.style.display = 'block';
+                setTimeout(() => modal.style.opacity = '1', 0);
+            };
+
+            openModal();
+            document.getElementById('closeModal').addEventListener('click
